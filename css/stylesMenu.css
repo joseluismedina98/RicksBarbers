@@ -1,0 +1,70 @@
+
+body {
+  font-family: Arial, sans-serif;
+
+  height: 100vh;
+  margin: 0;
+  background-image: url('../images/menu.jpg');
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+nav {
+  background-color: #333;
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  float: left;
+  margin-right: 10px;
+}
+
+.logo img {
+  height: 50px; /* Ajusta la altura según tu preferencia */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+}
+
+
+
+.nav-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nav-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+
+.CerrarSesion {
+  margin-left: auto;
+  
+}
+
+.CerrarSesion img {
+  height: 50px; /* Ajusta la altura según tu preferencia */
+}
